@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>EcoVerta Audit V5.1 — Starter GitHub</title>
+  <meta name="description" content="Starter modulaire EcoVerta Audit énergétique V5.1 avec wizard, moteur avant/après et export CRM/PDF prêt à compléter." />
+  <link rel="stylesheet" href="./assets/app.css" />
+</head>
+<body>
+  <div id="app" class="ev-app">
+    <header class="ev-hero">
+      <div class="ev-hero__inner">
+        <div class="ev-brand">
+          <div class="ev-brand__icon" aria-hidden="true">
+            <svg viewBox="0 0 64 64" xmlns="http://www.w3.org/2000/svg">
+              <path d="M16 35c-7 0-11-5-11-11 0-9 8-15 16-15 2-5 7-8 13-8 9 0 16 7 16 16 8 0 14 6 14 14s-6 14-14 14H22c-4 8-9 12-14 14 3-5 5-10 4-15h4Z" fill="#18b45b"/>
+              <ellipse cx="28" cy="27" rx="3.5" ry="6" fill="#fff"/>
+              <ellipse cx="40" cy="27" rx="3.5" ry="6" fill="#fff"/>
+              <ellipse cx="28" cy="28" rx="2" ry="3" fill="#0f2218"/>
+              <ellipse cx="40" cy="28" rx="2" ry="3" fill="#0f2218"/>
+              <path d="M27 39c3 2 7 2 10 0" stroke="#fff" stroke-width="2.5" stroke-linecap="round"/>
+            </svg>
+          </div>
+          <div>
+            <div class="ev-pill">Starter GitHub</div>
+            <h1>EcoVerta Audit énergétique V5.1</h1>
+            <p>Architecture modulaire, wizard 5 étapes, moteur avant / après, logique portefeuille et base CRM/PDF prêtes à compléter.</p>
+          </div>
+        </div>
+        <div class="ev-hero__stats">
+          <div class="ev-stat"><strong>5</strong><span>étapes</span></div>
+          <div class="ev-stat"><strong>Audit</strong><span>avant/après</span></div>
+          <div class="ev-stat"><strong>ZIP</strong><span>GitHub ready</span></div>
+        </div>
+      </div>
+    </header>
+
+    <main class="ev-main">
+      <section class="ev-topbar">
+        <div>
+          <div id="wizardTitle" class="ev-topbar__title">Étape 1 sur 5 — Projet</div>
+          <div id="wizardSubtitle" class="ev-topbar__subtitle">Renseignez le portefeuille, l’objectif et l’horizon.</div>
+        </div>
+        <div id="wizardRemain" class="ev-chip ev-chip--soft">4 étapes restantes</div>
+      </section>
+
+      <section class="ev-progress">
+        <div class="ev-progress__bar"><div id="progressFill" class="ev-progress__fill"></div></div>
+        <div class="ev-steps" id="stepsNav"></div>
+      </section>
+
+      <section id="wizardPanels" class="ev-panels"></section>
+    </main>
+  </div>
+
+  <script type="module" src="./assets/app.js"></script>
+</body>
+</html>
