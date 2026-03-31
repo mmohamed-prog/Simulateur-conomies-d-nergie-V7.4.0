@@ -98,9 +98,9 @@ function renderStep2(email) {
         Cliquez sur le lien dans cet email pour débloquer l'export PDF.
       </p>
       <div style="background:rgba(255,255,255,.07);border-radius:12px;padding:14px;font-size:13px;color:rgba(255,255,255,.55);line-height:1.6">
-        ⏱ Le lien est valable <strong style="color:rgba(255,255,255,.8)">24 heures</strong>.<br>
+        ⏱ Vous allez recevoir la synthèse par mail <strong style="color:rgba(255,255,255,.8)">d'ici 24 heures</strong>.<br>
         📂 Vérifiez aussi vos spams si vous ne recevez rien.<br>
-        ✉️ L'expéditeur est <strong style="color:rgba(255,255,255,.8)">noreply@formspree.io</strong>
+        ✉️ L'expéditeur est <strong style="color:rgba(255,255,255,.8)">contact@ecovertaconsult.com</strong>
       </div>
       <div class="ev-actions" style="margin-top:14px">
         <button class="ev-btn ev-btn--light" id="leadResend">
