@@ -93,9 +93,9 @@ function renderStep2(email) {
         Vérifiez votre boîte mail
       </h3>
       <p style="color:rgba(255,255,255,.72);line-height:1.6;margin:0 0 16px">
-        Un email de confirmation a été envoyé à
+        Un email de vous sera envoyé à
         <strong style="color:#8df6b7">${email}</strong>.<br>
-        Cliquez sur le lien dans cet email pour débloquer l'export PDF.
+        N'hésitez pas à nous contacter pour échanger sur votre projet.
       </p>
       <div style="background:rgba(255,255,255,.07);border-radius:12px;padding:14px;font-size:13px;color:rgba(255,255,255,.55);line-height:1.6">
         ⏱ Vous allez recevoir la synthèse par mail <strong style="color:rgba(255,255,255,.8)">d'ici 24 heures</strong>.<br>
